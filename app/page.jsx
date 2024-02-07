@@ -2,12 +2,10 @@ import TicketCard from "./(components)/TicketCard"
 
 const Dashboard = () => {
   return (
-    <div>
+    <div className="flex-initial">
       <TicketCard/>
       <TicketCard/>
-
       <TicketCard/>
-
     </div>
   )
 }
